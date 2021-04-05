@@ -1,0 +1,37 @@
+@import "./_variables.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./_overrides.scss";
+@import "./custom.scss";
+@import "./loaders.scss";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $body-bg;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+main {
+  flex-grow: 1;
+}
+
+ul{
+  list-style-type: none;
+  background-color: transparent !important;
+}
+li{
+ padding-left: .5rem !important;
+}
+.input-group-text{
+  background-color: white;
+  border: none;
+}
+.custom{
+  min-height: 20vh;
+}
+.custom h1{
+  font-size: 72px;
+}
+
+
